@@ -1,0 +1,76 @@
+.css-k1c4kw-MuiTreeItem-content.Mui-selected {
+  background-color: #baccd9 !important;
+  border-radius: 8px !important;
+}
+.css-k1c4kw-MuiTreeItem-content:hover {
+  border-radius: 8px !important;
+}
+.css-1ln0vny-MuiGrid-root > .MuiGrid-item {
+  padding-top: 11px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+.slick-slide img {
+  border-radius: 15px !important;
+}
+.css-1j6hc4w-MuiInputBase-input-MuiOutlinedInput-input {
+  background-color: white !important;
+}
+.css-lsu1vz-MuiTypography-root:hover {
+  cursor: pointer !important;
+}
+.ant-switch-checked {
+  background-color: #7ed321 !important;
+}
+.ant-switch {
+  border-radius: 8px !important;
+}
+.Navbar {
+  width: max-content;
+  height: auto;
+  margin-right: 10px;
+  padding: 8px;
+  border-right: 5px;
+  border-color: 'divider';
+  background-color: #f3f0f0;
+  border-radius: 3px;
+}
+.css-14ov8sj-MuiButtonBase-root-MuiToggleButton-root {
+  border: none !important;
+}
+/* .css-1rb86js {
+  background-color: aliceblue !important;
+  border-radius: 10px;
+} */
+.css-1ufqgrx-MuiToggleButtonGroup-root .MuiToggleButtonGroup-grouped {
+  border: none !important;
+}
+.css-v4nqmp {
+  display: none !important;
+}
+.css-3ok8xw {
+  width: 300px !important;
+  margin: 0px;
+}
+
+/* .css-2r0avy-MuiFormControlLabel-root {
+  border: 1px solid grey;
+  border-radius: 8px;
+  background-color: white;
+  padding-right: 8px;
+  margin-left: 2px;
+  margin-right: 6px;
+}
+.css-1rdazd-MuiButtonBase-root-MuiRadio-root {
+  padding: 5px;
+}
+.css-1vbggne-MuiFormControlLabel-root {
+  border: 1px solid grey;
+  border-radius: 8px;
+  background-color: white;
+  padding-right: 8px;
+  margin-left: 2px;
+  margin-right: 6px;
+} */

@@ -1,0 +1,13 @@
+.css-m6zdfi-Stack-root > :not(style) + :not(style) {
+  margin-top: 9px;
+}
+.css-11zwbe3-MuiPaper-root-MuiDialog-paper {
+  margin: 0px;
+  max-height: 100%;
+}
+.css-zb8o11-MuiTypography-root-MuiDialogTitle-root {
+  padding: 10px 24px;
+}
+.css-njmah9-MuiDialogContent-root {
+  padding: 0px 24px;
+}

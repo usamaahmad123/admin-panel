@@ -1,0 +1,16 @@
+.provider-names {
+  padding: 20px 0px;
+}
+.location-tab {
+  padding: 20px 0px;
+}
+.days-tab {
+  padding: 20px 10px 10px 0px;
+}
+.break-time {
+  display: flex;
+  padding: 50px 10px 25px 0px;
+}
+.vacation-tab {
+  padding: 30px 10px 10px 0px;
+}
