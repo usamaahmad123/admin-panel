@@ -4,7 +4,7 @@ const apiId = 'hHEBN4uWiLGeyB6thnGs';
 const gatewayURL = 'https://api.ssdemr.com';
 export const Login = async (UserName, Password) => {
   const bodyData = { email: UserName, password: Password };
-  const response = await fetch(`${gatewayURL}/v1/admin/signin`, {
+  const response = await fetch(`${gatewayURL}/v1/users/signin`, {
     method: 'post',
     body: JSON.stringify(bodyData),
     headers: {

@@ -229,9 +229,6 @@ export default function User() {
     resetForm
   } = formik;
 
-  if (localStorage.getItem('Role') === '1') {
-    return <Navigate to="/dashboard/app" replace />;
-  }
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
   };
@@ -336,25 +333,6 @@ export default function User() {
           spacing={3}
           direction={{ xs: 'column', sm: 'row' }}
         >
-          <FormControl fullWidth>
-            <InputLabel id="project-label">Project*</InputLabel>
-            <Select
-              labelId="project-label"
-              id="project-select"
-              label="project"
-              size="small"
-              onChange={(event) => {
-                setProject(event.target.value);
-              }}
-              value={project}
-              disabled={search || localStorage.getItem('Role') !== '0'}
-            >
-              <MenuItem selected disabled>
-                Choose Project
-              </MenuItem>
-              <MenuItem value="EMR">EMR</MenuItem>
-            </Select>
-          </FormControl>
           <TextField
             label="Search"
             type="search"

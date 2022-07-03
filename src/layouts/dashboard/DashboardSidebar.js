@@ -61,13 +61,13 @@ export default function DashboardSidebar({ isOpenSidebar, onCloseSidebar }) {
       }}
     >
       <Box sx={{ px: 2.5, py: 2 }}>
-        <Box
+        {/* <Box
           component={RouterLink}
           to={localStorage.getItem('Role') === '1' ? '/dashboard/data' : '/dashboard/app'}
           sx={{ display: 'flex', justifyContent: 'space-around' }}
         >
           <Logo />
-        </Box>
+        </Box> */}
       </Box>
 
       <Box sx={{ mb: 1.5, mx: 2.5 }}>

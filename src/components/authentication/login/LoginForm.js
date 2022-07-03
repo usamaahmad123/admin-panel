@@ -116,9 +116,8 @@ export default function LoginForm() {
   return (
     <FormikProvider value={formik}>
       <Form autoComplete="off" noValidate onSubmit={handleSubmit}>
-        <Stack spacing={3}>
+        <Stack spacing={3} sx={{ my: 2 }}>
           {errors.afterSubmit && <Alert severity="error">{errors.afterSubmit}</Alert>}
-
           <TextField
             fullWidth
             autoComplete="username"
@@ -131,7 +130,6 @@ export default function LoginForm() {
             error={Boolean(touchedCheck && touched.email && errors.email)}
             helperText={touchedCheck && touched.email && errors.email}
           />
-
           <TextField
             fullWidth
             autoComplete="current-password"
@@ -154,22 +152,6 @@ export default function LoginForm() {
             helperText={touchedCheck && touched.password && errors.password}
           />
         </Stack>
-
-        <Stack direction="row" alignItems="center" justifyContent="space-between" sx={{ my: 2 }}>
-          {/* <FormControlLabel
-            control={
-              <Checkbox size="small" {...getFieldProps('remember')} checked={values.remember} />
-            }
-            label="Remember me"
-          /> */}
-          <Link underline="hover" component={RouterLink} variant="subtitle2" to="/forgetpassword">
-            Contact for support
-          </Link>
-          <Link underline="hover" component={RouterLink} variant="subtitle2" to="/forgetpassword">
-            Forgot password?
-          </Link>
-        </Stack>
-
         <LoadingButton
           fullWidth
           size="small"

@@ -15,9 +15,6 @@ import AppTotalUsers from '../components/_dashboard/AppTotalUsers';
 // ----------------------------------------------------------------------
 
 export default function DashboardApp() {
-  if (localStorage.getItem('Role') === '1') {
-    return <Navigate to="/dashboard/data" />;
-  }
   return (
     <Page title="Dashboard">
       <Container maxWidth="xl">
